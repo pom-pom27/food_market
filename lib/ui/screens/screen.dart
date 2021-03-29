@@ -1,0 +1,31 @@
+import 'dart:math';
+
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:food_market/cubit/food_cubit.dart';
+import 'package:food_market/cubit/transaction_cubit.dart';
+import 'package:food_market/cubit/user_cubit.dart';
+import 'package:food_market/models/model.dart';
+import 'package:food_market/shared/shared.dart';
+import 'package:food_market/ui/widgets/widgets.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:sliver_header_delegate/sliver_header_delegate.dart';
+
+part "general_screen.dart";
+part 'signin_screen.dart';
+part 'signup_screen.dart';
+part 'signup_address_screen.dart';
+part 'main_screen.dart';
+part 'home_screen.dart';
+part 'testing_widget.dart';
+part 'food_detail_screen.dart';
+part 'fd.dart';
+part 'payment.dart';
+part 'illustration_screen.dart';
+part 'success_signup.dart';
+part 'success_order.dart';
+part 'order_screen.dart';
+part 'profile.dart';

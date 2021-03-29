@@ -1,0 +1,20 @@
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart' show mapEquals;
+import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:food_market/models/model.dart';
+import 'package:food_market/shared/shared.dart';
+import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:supercharged/supercharged.dart';
+
+part 'text_field.dart';
+part 'button.dart';
+part 'dropdown.dart';
+part 'bottom_nav.dart';
+part 'food_card.dart';
+part 'tabbar.dart';
+part 'food_list_item.dart';
+part 'rating_star.dart';
+part 'order_list_item.dart';
+part 'circular_loading.dart';
